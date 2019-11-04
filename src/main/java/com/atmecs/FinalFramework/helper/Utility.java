@@ -285,7 +285,6 @@ public class Utility {
 	public void selectDropdownByIndex(final String locator, final int index) {
 		try {
 			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
-					.ignoring(ElementClickInterceptedException.class)
 					.pollingEvery(Duration.ofSeconds(FileConstant.POLLING_TIMEOUT_INSECONDS))
 					.withTimeout(Duration.ofSeconds(FileConstant.TIMEOUT_INSECONDS));
 			fluentWait.until(new Function<WebDriver, Boolean>() {

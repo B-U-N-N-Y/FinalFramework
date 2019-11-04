@@ -3,7 +3,7 @@ package com.atmecs.FinalFramework.constant;
 import java.io.File;
 
 /**
- *  This Class contails all filepaths
+ *  This Class contains all filepaths
  * @author arjun.santra
  *
  */
